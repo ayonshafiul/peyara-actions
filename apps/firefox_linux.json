@@ -1,0 +1,12 @@
+[
+  {"id": "ff-new-tab", "label": "New Tab", "key": "t", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "ff-close-tab", "label": "Close Tab", "key": "w", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "ff-reopen-tab", "label": "Reopen Tab", "key": "t", "modifiers": ["ctrl", "shift"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "ff-next-tab", "label": "Next Tab", "key": "tab", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "ff-prev-tab", "label": "Prev Tab", "key": "tab", "modifiers": ["ctrl", "shift"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "ff-address", "label": "Address Bar", "key": "l", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "ff-reload", "label": "Reload", "key": "r", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "ff-library", "label": "Library", "key": "b", "modifiers": ["ctrl", "shift"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "ff-devtools", "label": "DevTools", "key": "i", "modifiers": ["ctrl", "shift"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "ff-bookmark", "label": "Bookmark", "key": "d", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1}
+]

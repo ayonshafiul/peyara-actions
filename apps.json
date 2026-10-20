@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "apps": [
+    {
+      "slug": "google-chrome",
+      "label": "Chrome",
+      "match": ["Google Chrome", "Chrome", "chrome", "chrome.exe", "com.google.Chrome"]
+    },
+    {
+      "slug": "brave",
+      "label": "Brave",
+      "match": ["Brave", "Brave Browser", "brave", "brave.exe", "com.brave.Browser"]
+    },
+    {
+      "slug": "firefox",
+      "label": "Firefox",
+      "match": ["Mozilla Firefox", "Firefox", "firefox", "firefox.exe", "org.mozilla.firefox"]
+    },
+    {
+      "slug": "photoshop",
+      "label": "Photoshop",
+      "match": ["Adobe Photoshop 2025", "Adobe Photoshop", "Photoshop", "photoshop.exe", "com.adobe.Photoshop"]
+    },
+    {
+      "slug": "illustrator",
+      "label": "Illustrator",
+      "match": ["Adobe Illustrator", "Illustrator", "illustrator.exe"]
+    },
+    {
+      "slug": "premiere",
+      "label": "Premiere Pro",
+      "match": ["Adobe Premiere Pro", "Premiere", "premiere.exe"]
+    },
+    {
+      "slug": "vscode",
+      "label": "VS Code",
+      "match": ["Visual Studio Code", "Code", "code.exe", "com.microsoft.VSCode"]
+    },
+    {
+      "slug": "word",
+      "label": "Word",
+      "match": ["Microsoft Word", "Word", "winword.exe", "com.microsoft.Word"]
+    },
+    {
+      "slug": "excel",
+      "label": "Excel",
+      "match": ["Microsoft Excel", "Excel", "excel.exe"]
+    },
+    {
+      "slug": "powerpoint",
+      "label": "PowerPoint",
+      "match": ["Microsoft PowerPoint", "PowerPoint", "powerpnt.exe"]
+    }
+  ]
+}

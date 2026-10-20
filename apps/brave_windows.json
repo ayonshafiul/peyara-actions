@@ -1,0 +1,12 @@
+[
+  {"id": "brave-new-tab", "label": "New Tab", "key": "t", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "brave-close-tab", "label": "Close Tab", "key": "w", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "brave-reopen-tab", "label": "Reopen Tab", "key": "t", "modifiers": ["ctrl", "shift"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "brave-next-tab", "label": "Next Tab", "key": "tab", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "brave-prev-tab", "label": "Prev Tab", "key": "tab", "modifiers": ["ctrl", "shift"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "brave-address", "label": "Address Bar", "key": "l", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "brave-reload", "label": "Reload", "key": "r", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "brave-devtools", "label": "DevTools", "key": "j", "modifiers": ["ctrl", "shift"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "brave-bookmark", "label": "Bookmark", "key": "d", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "brave-history", "label": "History", "key": "h", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1}
+]

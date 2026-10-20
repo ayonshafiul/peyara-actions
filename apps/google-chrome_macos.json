@@ -1,0 +1,11 @@
+[
+  {"id": "chrome-new-tab", "label": "New Tab", "key": "t", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "chrome-close-tab", "label": "Close Tab", "key": "w", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "chrome-reopen-tab", "label": "Reopen Tab", "key": "t", "modifiers": ["cmd", "shift"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "chrome-next-tab", "label": "Next Tab", "key": "tab", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "chrome-prev-tab", "label": "Prev Tab", "key": "tab", "modifiers": ["cmd", "shift"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "chrome-address", "label": "Address Bar", "key": "l", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "chrome-reload", "label": "Reload", "key": "r", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "chrome-devtools", "label": "DevTools", "key": "j", "modifiers": ["cmd", "shift"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "chrome-bookmark", "label": "Bookmark", "key": "d", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1}
+]
