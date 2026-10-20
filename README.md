@@ -37,6 +37,11 @@ GET https://raw.githubusercontent.com/ayonshafiul/peyara-actions/main/apps/<slug
 | `google-chrome` | `apps/google-chrome_windows.json`, `apps/google-chrome_macos.json`, `apps/google-chrome_linux.json` |
 | `brave` | `apps/brave_windows.json`, `apps/brave_macos.json`, `apps/brave_linux.json` |
 | `firefox` | `apps/firefox_windows.json`, `apps/firefox_macos.json`, `apps/firefox_linux.json` |
+| `zed` | `apps/zed_windows.json`, `apps/zed_macos.json`, `apps/zed_linux.json` |
+| `pycharm` | `apps/pycharm_windows.json`, `apps/pycharm_macos.json`, `apps/pycharm_linux.json` |
+| `intellij-idea` | `apps/intellij-idea_windows.json`, `apps/intellij-idea_macos.json`, `apps/intellij-idea_linux.json` |
+| `android-studio` | `apps/android-studio_windows.json`, `apps/android-studio_macos.json`, `apps/android-studio_linux.json` |
+| `xcode` | `apps/xcode_macos.json` (macOS only) |
 
 `apps.json` also reserves slugs for `photoshop`, `illustrator`, `premiere`, `vscode`, `word`, `excel`, `powerpoint` (files TBD).
 

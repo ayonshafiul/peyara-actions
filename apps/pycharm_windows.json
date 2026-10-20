@@ -1,0 +1,12 @@
+[
+  {"id": "pc-action", "label": "Find Action", "key": "a", "modifiers": ["ctrl", "shift"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "pc-class", "label": "Go to Class", "key": "n", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "pc-file", "label": "Go to File", "key": "n", "modifiers": ["ctrl", "shift"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "pc-find", "label": "Find in Files", "key": "f", "modifiers": ["ctrl", "shift"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "pc-fix", "label": "Quick Fix", "key": "enter", "modifiers": ["alt"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "pc-comment", "label": "Comment", "key": "/", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "pc-reformat", "label": "Reformat", "key": "l", "modifiers": ["ctrl", "alt"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "pc-run", "label": "Run", "key": "f10", "modifiers": ["shift"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "pc-debug", "label": "Debug", "key": "f9", "modifiers": ["shift"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "pc-terminal", "label": "Terminal", "key": "f12", "modifiers": ["alt"], "pressDurationMs": 50, "pressCount": 1}
+]

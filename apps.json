@@ -37,6 +37,31 @@
       "match": ["Visual Studio Code", "Code", "code.exe", "com.microsoft.VSCode"]
     },
     {
+      "slug": "zed",
+      "label": "Zed",
+      "match": ["Zed", "zed", "zed.exe", "dev.zed.Zed"]
+    },
+    {
+      "slug": "pycharm",
+      "label": "PyCharm",
+      "match": ["PyCharm", "PyCharm Community", "PyCharm Professional", "pycharm", "pycharm.exe", "pycharm64.exe", "com.jetbrains.pycharm"]
+    },
+    {
+      "slug": "intellij-idea",
+      "label": "IntelliJ IDEA",
+      "match": ["IntelliJ IDEA", "IntelliJ IDEA Community", "IntelliJ", "idea", "idea.exe", "idea64.exe", "com.jetbrains.intellij"]
+    },
+    {
+      "slug": "android-studio",
+      "label": "Android Studio",
+      "match": ["Android Studio", "studio", "studio.exe", "studio64.exe", "com.google.AndroidStudio"]
+    },
+    {
+      "slug": "xcode",
+      "label": "Xcode",
+      "match": ["Xcode", "xcode", "com.apple.dt.Xcode"]
+    },
+    {
       "slug": "word",
       "label": "Word",
       "match": ["Microsoft Word", "Word", "winword.exe", "com.microsoft.Word"]

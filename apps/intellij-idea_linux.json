@@ -1,0 +1,12 @@
+[
+  {"id": "ij-action", "label": "Find Action", "key": "a", "modifiers": ["ctrl", "shift"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "ij-class", "label": "Go to Class", "key": "n", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "ij-file", "label": "Go to File", "key": "n", "modifiers": ["ctrl", "shift"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "ij-find", "label": "Find in Files", "key": "f", "modifiers": ["ctrl", "shift"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "ij-fix", "label": "Quick Fix", "key": "enter", "modifiers": ["alt"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "ij-comment", "label": "Comment", "key": "/", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "ij-reformat", "label": "Reformat", "key": "l", "modifiers": ["ctrl", "alt"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "ij-run", "label": "Run", "key": "f10", "modifiers": ["shift"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "ij-debug", "label": "Debug", "key": "f9", "modifiers": ["shift"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "ij-terminal", "label": "Terminal", "key": "f12", "modifiers": ["alt"], "pressDurationMs": 50, "pressCount": 1}
+]

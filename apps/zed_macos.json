@@ -1,0 +1,8 @@
+[
+  {"id": "zed-palette", "label": "Command Palette", "key": "p", "modifiers": ["cmd", "shift"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "zed-file", "label": "Go to File", "key": "p", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "zed-find", "label": "Find in Project", "key": "f", "modifiers": ["cmd", "shift"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "zed-terminal", "label": "Terminal", "key": "`", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "zed-comment", "label": "Comment", "key": "/", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "zed-save", "label": "Save", "key": "s", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1}
+]

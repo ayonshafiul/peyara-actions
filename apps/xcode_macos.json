@@ -1,0 +1,10 @@
+[
+  {"id": "xc-run", "label": "Run", "key": "r", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "xc-build", "label": "Build", "key": "b", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "xc-test", "label": "Test", "key": "u", "modifiers": ["cmd"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "xc-clean", "label": "Clean", "key": "k", "modifiers": ["cmd", "shift"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "xc-open", "label": "Open Quickly", "key": "o", "modifiers": ["cmd", "shift"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "xc-find", "label": "Find in Project", "key": "f", "modifiers": ["cmd", "shift"], "pressDurationMs": 80, "pressCount": 1},
+  {"id": "xc-comment", "label": "Comment", "key": "/", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1},
+  {"id": "xc-save", "label": "Save", "key": "s", "modifiers": ["cmd"], "pressDurationMs": 50, "pressCount": 1}
+]
