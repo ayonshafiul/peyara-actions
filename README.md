@@ -4,18 +4,18 @@ Preset button repo for Peyara Shortcut Deck (`action` + `active-app`).
 
 ## Fetch URLs (client)
 
-Base: `https://raw.githubusercontent.com/ayonshafiul/peyara-actions/main`
+Base: `https://raw.githubusercontent.com/ayonshafiul/peyara-actions/refs/heads/main`
 
 App index (cache 24h):
 
 ```
-GET https://raw.githubusercontent.com/ayonshafiul/peyara-actions/main/apps.json
+GET https://raw.githubusercontent.com/ayonshafiul/peyara-actions/refs/heads/main/apps.json
 ```
 
 Per-app actions:
 
 ```
-GET https://raw.githubusercontent.com/ayonshafiul/peyara-actions/main/apps/<slug>_<os>.json
+GET https://raw.githubusercontent.com/ayonshafiul/peyara-actions/refs/heads/main/apps/<slug>_<os>.json
 ```
 
 - `<slug>` comes from `apps.json` (`apps[].slug`).
