@@ -50,8 +50,19 @@ GET https://raw.githubusercontent.com/ayonshafiul/peyara-actions/refs/heads/main
 | `excel` | `apps/excel_windows.json`, `apps/excel_macos.json`, `apps/excel_linux.json` (101 / 101 / 101 actions) |
 | `powerpoint` | `apps/powerpoint_windows.json`, `apps/powerpoint_macos.json`, `apps/powerpoint_linux.json` (88 / 87 / 88 actions) |
 | `ableton-live` | `apps/ableton-live_windows.json`, `apps/ableton-live_macos.json`, `apps/ableton-live_linux.json` (154 / 154 / 154 actions) |
+| `flstudio` | `apps/flstudio_windows.json`, `apps/flstudio_macos.json` (236 / 234 actions) |
+| `logic-pro` | `apps/logic-pro_macos.json` (macOS only, 149 actions) |
+| `protools` | `apps/protools_windows.json`, `apps/protools_macos.json` (75 / 75 actions) |
+| `cubase` | `apps/cubase_windows.json`, `apps/cubase_macos.json` (132 / 132 actions) |
+| `studio-one` | `apps/studio-one_windows.json`, `apps/studio-one_macos.json` (131 / 129 actions) |
+| `reaper` | `apps/reaper_windows.json`, `apps/reaper_macos.json`, `apps/reaper_linux.json` (114 / 114 / 114 actions) |
+| `bitwig` | `apps/bitwig_windows.json`, `apps/bitwig_macos.json`, `apps/bitwig_linux.json` (100 / 100 / 100 actions) |
+| `reason` | `apps/reason_windows.json`, `apps/reason_macos.json` (89 / 89 actions) |
+| `garageband` | `apps/garageband_macos.json` (macOS only, 71 actions) |
+| `ardour` | `apps/ardour_windows.json`, `apps/ardour_macos.json`, `apps/ardour_linux.json` (87 / 83 / 87 actions) |
+| `cakewalk` | `apps/cakewalk_windows.json` (Windows only, 122 actions) |
 
-Every deck ships at least 60 shortcuts.
+Every deck ships at least 30 shortcuts (smallest is 63).
 
 ## Action schema
 

@@ -80,6 +80,61 @@
       "slug": "ableton-live",
       "label": "Ableton Live",
       "match": ["Ableton Live", "Ableton Live 11", "Ableton Live 12", "Ableton Live 11 Suite", "Ableton Live 12 Suite", "Ableton Live 11 Intro", "Ableton Live 12 Intro", "Ableton Live 11 Lite", "Ableton Live 12 Lite", "Live", "Ableton Live.exe", "Live.exe", "com.ableton.live", "ableton live"]
+    },
+    {
+      "slug": "flstudio",
+      "label": "FL Studio",
+      "match": ["FL Studio", "FL Studio 20", "FL Studio 21", "FL Studio 2024", "FL Studio.exe", "FL64.exe", "com.image-line.flstudio"]
+    },
+    {
+      "slug": "logic-pro",
+      "label": "Logic Pro",
+      "match": ["Logic Pro", "Logic Pro X", "Logic", "com.apple.logic10"]
+    },
+    {
+      "slug": "protools",
+      "label": "Pro Tools",
+      "match": ["Pro Tools", "Pro Tools Ultimate", "ProTools", "ProTools.exe", "com.avid.ProTools", "com.avid.ProToolsUltimate"]
+    },
+    {
+      "slug": "cubase",
+      "label": "Cubase",
+      "match": ["Cubase", "Cubase Pro", "Cubase Artist", "Cubase Elements", "Cubase 13", "Cubase 14", "Cubase 15", "Cubase.exe", "com.steinberg.cubase13", "com.steinberg.cubase14"]
+    },
+    {
+      "slug": "studio-one",
+      "label": "Studio One",
+      "match": ["Studio One", "Studio One 5", "Studio One 6", "Studio One 7", "Studio One.exe", "com.presonus.studioone", "com.presonus.studioone2"]
+    },
+    {
+      "slug": "reaper",
+      "label": "REAPER",
+      "match": ["REAPER", "reaper", "reaper.exe", "com.cockos.reaper"]
+    },
+    {
+      "slug": "bitwig",
+      "label": "Bitwig Studio",
+      "match": ["Bitwig Studio", "Bitwig", "Bitwig Studio.exe", "bitwig", "com.bitwig.BitwigStudio"]
+    },
+    {
+      "slug": "reason",
+      "label": "Reason",
+      "match": ["Reason", "Reason Studios", "Reason.exe", "com.propellerheads.reason", "com.reasonstudios.reason"]
+    },
+    {
+      "slug": "garageband",
+      "label": "GarageBand",
+      "match": ["GarageBand", "garageband", "com.apple.garageband10"]
+    },
+    {
+      "slug": "ardour",
+      "label": "Ardour",
+      "match": ["Ardour", "ardour", "ardour8", "Ardour.exe", "org.ardour.Ardour"]
+    },
+    {
+      "slug": "cakewalk",
+      "label": "Cakewalk",
+      "match": ["Cakewalk", "Cakewalk by BandLab", "Cakewalk.exe", "SONAR", "Sonar.exe", "com.cakewalk.Cakewalk"]
     }
   ]
 }
