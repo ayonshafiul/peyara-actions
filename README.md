@@ -6,7 +6,7 @@ Preset button repo for Peyara Shortcut Deck (`action` + `active-app`).
 
 Base: `https://raw.githubusercontent.com/ayonshafiul/peyara-actions/refs/heads/main`
 
-App index (cache 24h):
+App index:
 
 ```
 GET https://raw.githubusercontent.com/ayonshafiul/peyara-actions/refs/heads/main/apps.json
@@ -24,45 +24,23 @@ GET https://raw.githubusercontent.com/ayonshafiul/peyara-actions/refs/heads/main
 ## Client flow
 
 1. Pair (`hello`) → receive `active-app` (`{app, slug, os, ...}`).
-2. `GET apps.json` (cache 24h).
+2. `GET apps.json`.
 3. Map `active-app.app` → `slug` via `apps[].match` (case-insensitive). Fallback: slugify locally (`lowercase, [^a-z0-9]+ → "-"`).
 4. `GET apps/<slug>_<os>.json`, render `label` buttons.
 5. Tap → send `{"type":"action","actionId":...,"key":...,"modifiers":[...],"pressDurationMs":...,"pressCount":...}` over `wss://<host>:1313/ws`.
 6. Missing file/slug → generic deck or empty state, never crash.
 
-## Available files
+## Apps
 
-| slug | file |
-|---|---|
-| `google-chrome` | `apps/google-chrome_windows.json`, `apps/google-chrome_macos.json`, `apps/google-chrome_linux.json` (71 / 63 / 71 actions) |
-| `brave` | `apps/brave_windows.json`, `apps/brave_macos.json`, `apps/brave_linux.json` (71 / 63 / 71 actions) |
-| `firefox` | `apps/firefox_windows.json`, `apps/firefox_macos.json`, `apps/firefox_linux.json` (75 / 66 / 75 actions) |
-| `photoshop` | `apps/photoshop_windows.json`, `apps/photoshop_macos.json`, `apps/photoshop_linux.json` (128 / 128 / 128 actions) |
-| `illustrator` | `apps/illustrator_windows.json`, `apps/illustrator_macos.json`, `apps/illustrator_linux.json` (118 / 118 / 118 actions) |
-| `premiere` | `apps/premiere_windows.json`, `apps/premiere_macos.json`, `apps/premiere_linux.json` (98 / 98 / 98 actions) |
-| `vscode` | `apps/vscode_windows.json`, `apps/vscode_macos.json`, `apps/vscode_linux.json` (108 / 108 / 108 actions) |
-| `zed` | `apps/zed_windows.json`, `apps/zed_macos.json`, `apps/zed_linux.json` (67 / 67 / 67 actions) |
-| `pycharm` | `apps/pycharm_windows.json`, `apps/pycharm_macos.json`, `apps/pycharm_linux.json` (123 / 123 / 123 actions) |
-| `intellij-idea` | `apps/intellij-idea_windows.json`, `apps/intellij-idea_macos.json`, `apps/intellij-idea_linux.json` (122 / 122 / 122 actions) |
-| `android-studio` | `apps/android-studio_windows.json`, `apps/android-studio_macos.json`, `apps/android-studio_linux.json` (123 / 123 / 123 actions) |
-| `xcode` | `apps/xcode_macos.json` (macOS only, 87 actions) |
-| `word` | `apps/word_windows.json`, `apps/word_macos.json`, `apps/word_linux.json` (101 / 101 / 101 actions) |
-| `excel` | `apps/excel_windows.json`, `apps/excel_macos.json`, `apps/excel_linux.json` (101 / 101 / 101 actions) |
-| `powerpoint` | `apps/powerpoint_windows.json`, `apps/powerpoint_macos.json`, `apps/powerpoint_linux.json` (88 / 87 / 88 actions) |
-| `ableton-live` | `apps/ableton-live_windows.json`, `apps/ableton-live_macos.json`, `apps/ableton-live_linux.json` (154 / 154 / 154 actions) |
-| `flstudio` | `apps/flstudio_windows.json`, `apps/flstudio_macos.json` (236 / 234 actions) |
-| `logic-pro` | `apps/logic-pro_macos.json` (macOS only, 149 actions) |
-| `protools` | `apps/protools_windows.json`, `apps/protools_macos.json` (75 / 75 actions) |
-| `cubase` | `apps/cubase_windows.json`, `apps/cubase_macos.json` (132 / 132 actions) |
-| `studio-one` | `apps/studio-one_windows.json`, `apps/studio-one_macos.json` (131 / 129 actions) |
-| `reaper` | `apps/reaper_windows.json`, `apps/reaper_macos.json`, `apps/reaper_linux.json` (114 / 114 / 114 actions) |
-| `bitwig` | `apps/bitwig_windows.json`, `apps/bitwig_macos.json`, `apps/bitwig_linux.json` (100 / 100 / 100 actions) |
-| `reason` | `apps/reason_windows.json`, `apps/reason_macos.json` (89 / 89 actions) |
-| `garageband` | `apps/garageband_macos.json` (macOS only, 71 actions) |
-| `ardour` | `apps/ardour_windows.json`, `apps/ardour_macos.json`, `apps/ardour_linux.json` (87 / 83 / 87 actions) |
-| `cakewalk` | `apps/cakewalk_windows.json` (Windows only, 122 actions) |
+`apps.json` is the source of truth for the app list, labels, and `active-app.app`
+matching aliases (`apps[].match`). Each app has one actions file per supported OS:
 
-Every deck ships at least 30 shortcuts (smallest is 63).
+```
+apps/<slug>_<os>.json
+```
+
+Not every app ships all three OS files — platform-exclusive apps only include the OS
+they run on (for example `xcode` is macOS-only, `cakewalk` is Windows-only).
 
 ## Action schema
 
@@ -75,3 +53,47 @@ Every deck ships at least 30 shortcuts (smallest is 63).
 - `key` required (§4 key names). `modifiers` default `[]`.
 - `pressDurationMs` default `0` (`0..=5000`). `pressCount` default `1` (`1..=10`).
 - `code` reserved for v2, ignored by v1 server.
+
+## Contributing: add a new app
+
+1. **Pick a slug.** Lowercase, hyphenated, matching the filename: `sample-app`.
+2. **Create one file per supported OS** in `apps/`:
+   - `apps/sample-app_windows.json`
+   - `apps/sample-app_macos.json`
+   - `apps/sample-app_linux.json`
+
+   Apps that only run on one platform need only that file (see `xcode`, `cakewalk`).
+3. **Register the app in `apps.json`:**
+
+   ```json
+   {
+     "slug": "sample-app",
+     "label": "Sample App",
+     "match": ["Sample App", "sample-app.exe", "com.example.sample-app"]
+   }
+   ```
+
+   `match` is case-insensitive and should contain what the OS reports as
+   `active-app.app`: display names, process/executable names, and macOS bundle IDs.
+   Add versioned names (for example `"Sample App 2"`) when the app reports them.
+4. **Add actions** using the schema above. Minimum example:
+
+   ```json
+   [
+     {"id": "sample-record", "label": "Start Recording", "key": "r", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+     {"id": "sample-export", "label": "Export", "key": "e", "modifiers": ["ctrl"], "pressDurationMs": 50, "pressCount": 1},
+     {"id": "sample-play", "label": "Play", "key": "space", "modifiers": [], "pressDurationMs": 50, "pressCount": 1}
+   ]
+   ```
+
+   - Prefix `id` with the app (for example `sample-`) and keep IDs stable; clients send them back as `actionId`.
+   - Keep the same IDs and labels across OS files, and change only `key` / `modifiers`.
+   - Aim for at least 30 useful shortcuts per file.
+5. **Map platform keys.** Windows/Linux use `ctrl` + `alt`; macOS uses `cmd` + `alt` (Option).
+   Single-key shortcuts are usually identical everywhere. Avoid keys the server cannot emit on macOS:
+   `+`, `{`, `}`, `&`, `~`, `^`, `"` and `insert`/numpad keys.
+6. **Smoke test** the published URL after merging:
+
+   ```bash
+   curl -s https://raw.githubusercontent.com/ayonshafiul/peyara-actions/refs/heads/main/apps/sample-app_macos.json | python3 -m json.tool | head
+   ```

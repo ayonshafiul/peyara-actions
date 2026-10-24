@@ -135,6 +135,16 @@
       "slug": "cakewalk",
       "label": "Cakewalk",
       "match": ["Cakewalk", "Cakewalk by BandLab", "Cakewalk.exe", "SONAR", "Sonar.exe", "com.cakewalk.Cakewalk"]
+    },
+    {
+      "slug": "davinci-resolve",
+      "label": "DaVinci Resolve",
+      "match": ["DaVinci Resolve", "DaVinci Resolve Studio", "DaVinci Resolve 18", "DaVinci Resolve 19", "DaVinci Resolve 20", "Resolve", "Resolve.exe", "davinci-resolve", "com.blackmagic-design.DaVinciResolve", "com.blackmagic-design.DaVinciResolveStudio"]
+    },
+    {
+      "slug": "obs-studio",
+      "label": "OBS Studio",
+      "match": ["OBS Studio", "OBS", "obs64.exe", "obs.exe", "com.obsproject.obs-studio"]
     }
   ]
 }
