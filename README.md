@@ -34,16 +34,24 @@ GET https://raw.githubusercontent.com/ayonshafiul/peyara-actions/refs/heads/main
 
 | slug | file |
 |---|---|
-| `google-chrome` | `apps/google-chrome_windows.json`, `apps/google-chrome_macos.json`, `apps/google-chrome_linux.json` |
-| `brave` | `apps/brave_windows.json`, `apps/brave_macos.json`, `apps/brave_linux.json` |
-| `firefox` | `apps/firefox_windows.json`, `apps/firefox_macos.json`, `apps/firefox_linux.json` |
-| `zed` | `apps/zed_windows.json`, `apps/zed_macos.json`, `apps/zed_linux.json` |
-| `pycharm` | `apps/pycharm_windows.json`, `apps/pycharm_macos.json`, `apps/pycharm_linux.json` |
-| `intellij-idea` | `apps/intellij-idea_windows.json`, `apps/intellij-idea_macos.json`, `apps/intellij-idea_linux.json` |
-| `android-studio` | `apps/android-studio_windows.json`, `apps/android-studio_macos.json`, `apps/android-studio_linux.json` |
-| `xcode` | `apps/xcode_macos.json` (macOS only) |
+| `google-chrome` | `apps/google-chrome_windows.json`, `apps/google-chrome_macos.json`, `apps/google-chrome_linux.json` (71 / 63 / 71 actions) |
+| `brave` | `apps/brave_windows.json`, `apps/brave_macos.json`, `apps/brave_linux.json` (71 / 63 / 71 actions) |
+| `firefox` | `apps/firefox_windows.json`, `apps/firefox_macos.json`, `apps/firefox_linux.json` (75 / 66 / 75 actions) |
+| `photoshop` | `apps/photoshop_windows.json`, `apps/photoshop_macos.json`, `apps/photoshop_linux.json` (128 / 128 / 128 actions) |
+| `illustrator` | `apps/illustrator_windows.json`, `apps/illustrator_macos.json`, `apps/illustrator_linux.json` (118 / 118 / 118 actions) |
+| `premiere` | `apps/premiere_windows.json`, `apps/premiere_macos.json`, `apps/premiere_linux.json` (98 / 98 / 98 actions) |
+| `vscode` | `apps/vscode_windows.json`, `apps/vscode_macos.json`, `apps/vscode_linux.json` (108 / 108 / 108 actions) |
+| `zed` | `apps/zed_windows.json`, `apps/zed_macos.json`, `apps/zed_linux.json` (67 / 67 / 67 actions) |
+| `pycharm` | `apps/pycharm_windows.json`, `apps/pycharm_macos.json`, `apps/pycharm_linux.json` (123 / 123 / 123 actions) |
+| `intellij-idea` | `apps/intellij-idea_windows.json`, `apps/intellij-idea_macos.json`, `apps/intellij-idea_linux.json` (122 / 122 / 122 actions) |
+| `android-studio` | `apps/android-studio_windows.json`, `apps/android-studio_macos.json`, `apps/android-studio_linux.json` (123 / 123 / 123 actions) |
+| `xcode` | `apps/xcode_macos.json` (macOS only, 87 actions) |
+| `word` | `apps/word_windows.json`, `apps/word_macos.json`, `apps/word_linux.json` (101 / 101 / 101 actions) |
+| `excel` | `apps/excel_windows.json`, `apps/excel_macos.json`, `apps/excel_linux.json` (101 / 101 / 101 actions) |
+| `powerpoint` | `apps/powerpoint_windows.json`, `apps/powerpoint_macos.json`, `apps/powerpoint_linux.json` (88 / 87 / 88 actions) |
+| `ableton-live` | `apps/ableton-live_windows.json`, `apps/ableton-live_macos.json`, `apps/ableton-live_linux.json` (154 / 154 / 154 actions) |
 
-`apps.json` also reserves slugs for `photoshop`, `illustrator`, `premiere`, `vscode`, `word`, `excel`, `powerpoint` (files TBD).
+Every deck ships at least 60 shortcuts.
 
 ## Action schema
 

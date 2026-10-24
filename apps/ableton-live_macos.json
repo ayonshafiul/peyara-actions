@@ -1,0 +1,1515 @@
+[
+  {
+    "id": "ab-play-stop",
+    "label": "Play / Stop",
+    "key": "space",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-continue",
+    "label": "Continue from Stop",
+    "key": "space",
+    "modifiers": [
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-record",
+    "label": "Record",
+    "key": "f9",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-arm-arr",
+    "label": "Arm Arrangement Rec",
+    "key": "f9",
+    "modifiers": [
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-session-rec",
+    "label": "Record to Session",
+    "key": "f9",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-back-arr",
+    "label": "Back to Arrangement",
+    "key": "f10",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-metronome",
+    "label": "Metronome",
+    "key": "o",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-activ-1",
+    "label": "Track 1 On/Off",
+    "key": "f1",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-activ-2",
+    "label": "Track 2 On/Off",
+    "key": "f2",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-activ-3",
+    "label": "Track 3 On/Off",
+    "key": "f3",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-activ-4",
+    "label": "Track 4 On/Off",
+    "key": "f4",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-activ-5",
+    "label": "Track 5 On/Off",
+    "key": "f5",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-activ-6",
+    "label": "Track 6 On/Off",
+    "key": "f6",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-activ-7",
+    "label": "Track 7 On/Off",
+    "key": "f7",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-activ-8",
+    "label": "Track 8 On/Off",
+    "key": "f8",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-goto-start",
+    "label": "Go to Start",
+    "key": "home",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-play-insert",
+    "label": "Play from Insert Marker",
+    "key": "space",
+    "modifiers": [
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-insert-playhead",
+    "label": "Marker to Playhead",
+    "key": "space",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-launch",
+    "label": "Launch Clip / Load Item",
+    "key": "enter",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-stop-clips",
+    "label": "Stop Clips in Track",
+    "key": "enter",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-view-toggle",
+    "label": "Session/Arrangement",
+    "key": "tab",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-clip-device",
+    "label": "Clip/Device View",
+    "key": "f12",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-hotswap",
+    "label": "Hot-Swap Mode",
+    "key": "q",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-drum-rack",
+    "label": "Drum Rack / Pad",
+    "key": "d",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-compare",
+    "label": "Compare A/B",
+    "key": "p",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-comp-keyboard",
+    "label": "Computer MIDI Keys",
+    "key": "m",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-midi-map",
+    "label": "MIDI Map Mode",
+    "key": "m",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-key-map",
+    "label": "Key Map Mode",
+    "key": "k",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-browser",
+    "label": "Show Browser",
+    "key": "b",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-video",
+    "label": "Show Video Window",
+    "key": "v",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-overview",
+    "label": "Show Overview",
+    "key": "o",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-inout",
+    "label": "Show In/Out",
+    "key": "i",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-sends",
+    "label": "Show Sends",
+    "key": "s",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-mixer",
+    "label": "Show Mixer",
+    "key": "m",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-clip-view",
+    "label": "Show Clip View",
+    "key": "3",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-device-view",
+    "label": "Show Device View",
+    "key": "4",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-groove",
+    "label": "Show Groove Pool",
+    "key": "6",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-learn",
+    "label": "Show Learn View",
+    "key": "7",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-plugins",
+    "label": "Show Plug-in Windows",
+    "key": "p",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-settings",
+    "label": "Open Settings",
+    "key": ",",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-close",
+    "label": "Close Dialog",
+    "key": "escape",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-second-window",
+    "label": "Second Window",
+    "key": "w",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 80,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-full-clip",
+    "label": "Full-Size Clip View",
+    "key": "e",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-focus-0",
+    "label": "Focus Control Bar",
+    "key": "0",
+    "modifiers": [
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-focus-1",
+    "label": "Focus Session View",
+    "key": "1",
+    "modifiers": [
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-focus-2",
+    "label": "Focus Arrangement",
+    "key": "2",
+    "modifiers": [
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-focus-3",
+    "label": "Focus Clip View",
+    "key": "3",
+    "modifiers": [
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-focus-4",
+    "label": "Focus Device View",
+    "key": "4",
+    "modifiers": [
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-focus-5",
+    "label": "Focus Browser",
+    "key": "5",
+    "modifiers": [
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-focus-6",
+    "label": "Focus Groove Pool",
+    "key": "6",
+    "modifiers": [
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-focus-7",
+    "label": "Focus Learn View",
+    "key": "7",
+    "modifiers": [
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-focus-8",
+    "label": "Focus Clip Panel",
+    "key": "8",
+    "modifiers": [
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-focus-panels",
+    "label": "Focus Clip Panels",
+    "key": "p",
+    "modifiers": [
+      "alt",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-new-set",
+    "label": "New Set",
+    "key": "n",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-open-set",
+    "label": "Open Set",
+    "key": "o",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-save-set",
+    "label": "Save Set",
+    "key": "s",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-save-as",
+    "label": "Save As",
+    "key": "s",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-export-audio",
+    "label": "Export Audio/Video",
+    "key": "r",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 80,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-export-midi",
+    "label": "Export MIDI File",
+    "key": "e",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 80,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-quit",
+    "label": "Quit Live",
+    "key": "q",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-cut",
+    "label": "Cut",
+    "key": "x",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-copy",
+    "label": "Copy",
+    "key": "c",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-paste",
+    "label": "Paste",
+    "key": "v",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-duplicate",
+    "label": "Duplicate",
+    "key": "d",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-delete",
+    "label": "Delete",
+    "key": "delete",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-undo",
+    "label": "Undo",
+    "key": "z",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-rename",
+    "label": "Rename",
+    "key": "r",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-select-all",
+    "label": "Select All",
+    "key": "a",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-audio-track",
+    "label": "Insert Audio Track",
+    "key": "t",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-midi-track",
+    "label": "Insert MIDI Track",
+    "key": "t",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-return-track",
+    "label": "Insert Return Track",
+    "key": "t",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-group",
+    "label": "Group Tracks",
+    "key": "g",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-ungroup",
+    "label": "Ungroup Tracks",
+    "key": "g",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-show-groups",
+    "label": "Show Grouped Tracks",
+    "key": "=",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-hide-groups",
+    "label": "Hide Grouped Tracks",
+    "key": "-",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-collapse",
+    "label": "Collapse/Expand Group",
+    "key": "u",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-unfold-all",
+    "label": "Unfold All Tracks",
+    "key": "u",
+    "modifiers": [
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-returns",
+    "label": "Show Return Tracks",
+    "key": "r",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-arm",
+    "label": "Arm Tracks",
+    "key": "c",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-solo",
+    "label": "Solo Tracks",
+    "key": "s",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-deactivate",
+    "label": "Deactivate Track/Clip",
+    "key": "0",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-freeze",
+    "label": "Freeze/Unfreeze",
+    "key": "f",
+    "modifiers": [
+      "cmd",
+      "alt",
+      "shift"
+    ],
+    "pressDurationMs": 80,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-bounce",
+    "label": "Bounce to New Track",
+    "key": "b",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-paste-bounced",
+    "label": "Paste Bounced Audio",
+    "key": "v",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-split",
+    "label": "Split Clip at Selection",
+    "key": "e",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-consolidate",
+    "label": "Consolidate Clip",
+    "key": "j",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-crop",
+    "label": "Crop Clips",
+    "key": "j",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-fade",
+    "label": "Create Fade/Xfade",
+    "key": "f",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-fade-toggle",
+    "label": "Toggle Fade Controls",
+    "key": "f",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-loop",
+    "label": "Toggle Loop Brace",
+    "key": "l",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-select-loop",
+    "label": "Select Loop Contents",
+    "key": "l",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-insert-silence",
+    "label": "Insert Silence",
+    "key": "i",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-cut-time",
+    "label": "Cut Time",
+    "key": "x",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-copy-time",
+    "label": "Copy Time",
+    "key": "c",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-paste-time",
+    "label": "Paste Time",
+    "key": "v",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-dup-time",
+    "label": "Duplicate Time",
+    "key": "d",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-del-time",
+    "label": "Delete Time",
+    "key": "delete",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-reverse",
+    "label": "Reverse Clip",
+    "key": "r",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-zoom-sel",
+    "label": "Zoom to Selection",
+    "key": "z",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-zoom-back",
+    "label": "Zoom Back",
+    "key": "x",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-opt-height",
+    "label": "Optimize Height",
+    "key": "h",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-opt-width",
+    "label": "Fit Width",
+    "key": "w",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-automation",
+    "label": "Automation Mode",
+    "key": "a",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-draw",
+    "label": "Draw Mode",
+    "key": "b",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-take-lanes",
+    "label": "Show Take Lanes",
+    "key": "u",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-audition",
+    "label": "Audition Take Lane",
+    "key": "t",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-add-take",
+    "label": "Add Take Lane",
+    "key": "t",
+    "modifiers": [
+      "alt",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-quantize",
+    "label": "Quantize",
+    "key": "u",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-quant-settings",
+    "label": "Quantize Settings",
+    "key": "u",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-warp-marker",
+    "label": "Insert Warp Marker",
+    "key": "i",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-transient",
+    "label": "Insert Transient",
+    "key": "i",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-del-transient",
+    "label": "Delete Transient",
+    "key": "delete",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-chop",
+    "label": "Chop / Split Notes",
+    "key": "e",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-join",
+    "label": "Join Notes",
+    "key": "j",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-fit-notes",
+    "label": "Fit Notes to Range",
+    "key": "j",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-scale",
+    "label": "Highlight Scale",
+    "key": "k",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-invert",
+    "label": "Invert Note Selection",
+    "key": "a",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-apply-tool",
+    "label": "Apply MIDI Tool",
+    "key": "enter",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-midi-filters",
+    "label": "MIDI Note Filters",
+    "key": "f",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-audio-engine",
+    "label": "Audio Engine On/Off",
+    "key": "e",
+    "modifiers": [
+      "cmd",
+      "alt",
+      "shift"
+    ],
+    "pressDurationMs": 80,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-grid-narrow",
+    "label": "Narrow Grid",
+    "key": "1",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-grid-wide",
+    "label": "Widen Grid",
+    "key": "2",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-grid-triplet",
+    "label": "Triplet Grid",
+    "key": "3",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-grid-snap",
+    "label": "Snap to Grid",
+    "key": "4",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-grid-adaptive",
+    "label": "Fixed/Adaptive Grid",
+    "key": "5",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-quant-16",
+    "label": "16th Quantization",
+    "key": "6",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-quant-8",
+    "label": "8th Quantization",
+    "key": "7",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-quant-4",
+    "label": "Quarter Quantization",
+    "key": "8",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-quant-1",
+    "label": "1-Bar Quantization",
+    "key": "9",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-quant-off",
+    "label": "Quantization Off",
+    "key": "0",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-mark-start",
+    "label": "Set Start Marker",
+    "key": "f9",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-loop-start",
+    "label": "Set Loop Start",
+    "key": "f10",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-loop-end",
+    "label": "Set Loop End",
+    "key": "f11",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-mark-end",
+    "label": "Set End Marker",
+    "key": "f12",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-zoom-in",
+    "label": "Zoom In",
+    "key": "=",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-zoom-out",
+    "label": "Zoom Out",
+    "key": "-",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-zoom-time-in",
+    "label": "Time Ruler Zoom In",
+    "key": "=",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-zoom-time-out",
+    "label": "Time Ruler Zoom Out",
+    "key": "-",
+    "modifiers": [],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-insert-scene",
+    "label": "Insert Scene",
+    "key": "i",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-capture-scene",
+    "label": "Captured Scene",
+    "key": "i",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-insert-midi-clip",
+    "label": "Insert MIDI Clip",
+    "key": "m",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-stop-button",
+    "label": "Add/Remove Stop Btn",
+    "key": "e",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-follow",
+    "label": "Toggle Follow Actions",
+    "key": "enter",
+    "modifiers": [
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-follow-chain",
+    "label": "Follow Action Chain",
+    "key": "enter",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-search",
+    "label": "Search Browser",
+    "key": "f",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-preview",
+    "label": "Preview File",
+    "key": "enter",
+    "modifiers": [
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-similar",
+    "label": "Similar Search",
+    "key": "f",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-hist-back",
+    "label": "Browser Back",
+    "key": "[",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-hist-fwd",
+    "label": "Browser Forward",
+    "key": "]",
+    "modifiers": [
+      "cmd"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-filter",
+    "label": "Filter View",
+    "key": "g",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-tag-editor",
+    "label": "Tag Editor",
+    "key": "e",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-fullscreen",
+    "label": "Full Screen",
+    "key": "f",
+    "modifiers": [
+      "ctrl",
+      "cmd"
+    ],
+    "pressDurationMs": 80,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-redo",
+    "label": "Redo",
+    "key": "z",
+    "modifiers": [
+      "cmd",
+      "shift"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  },
+  {
+    "id": "ab-del-fades",
+    "label": "Delete Fades",
+    "key": "delete",
+    "modifiers": [
+      "cmd",
+      "alt"
+    ],
+    "pressDurationMs": 50,
+    "pressCount": 1
+  }
+]

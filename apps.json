@@ -4,37 +4,37 @@
     {
       "slug": "google-chrome",
       "label": "Chrome",
-      "match": ["Google Chrome", "Chrome", "chrome", "chrome.exe", "com.google.Chrome"]
+      "match": ["Google Chrome", "Chrome", "chrome", "chrome.exe", "google-chrome", "google-chrome-stable", "chromium", "Chromium", "com.google.Chrome", "com.google.Chrome.canary"]
     },
     {
       "slug": "brave",
       "label": "Brave",
-      "match": ["Brave", "Brave Browser", "brave", "brave.exe", "com.brave.Browser"]
+      "match": ["Brave", "Brave Browser", "brave", "brave.exe", "brave-browser", "brave-browser-stable", "com.brave.Browser", "com.brave.Browser.beta"]
     },
     {
       "slug": "firefox",
       "label": "Firefox",
-      "match": ["Mozilla Firefox", "Firefox", "firefox", "firefox.exe", "org.mozilla.firefox"]
+      "match": ["Mozilla Firefox", "Firefox", "firefox", "firefox.exe", "firefox-bin", "firefox-esr", "org.mozilla.firefox", "org.mozilla.firefoxdeveloperedition"]
     },
     {
       "slug": "photoshop",
       "label": "Photoshop",
-      "match": ["Adobe Photoshop 2025", "Adobe Photoshop", "Photoshop", "photoshop.exe", "com.adobe.Photoshop"]
+      "match": ["Adobe Photoshop 2025", "Adobe Photoshop 2024", "Adobe Photoshop", "Photoshop", "photoshop.exe", "com.adobe.Photoshop"]
     },
     {
       "slug": "illustrator",
       "label": "Illustrator",
-      "match": ["Adobe Illustrator", "Illustrator", "illustrator.exe"]
+      "match": ["Adobe Illustrator", "Adobe Illustrator 2024", "Adobe Illustrator 2025", "Illustrator", "illustrator.exe", "com.adobe.illustrator"]
     },
     {
       "slug": "premiere",
       "label": "Premiere Pro",
-      "match": ["Adobe Premiere Pro", "Premiere", "premiere.exe"]
+      "match": ["Adobe Premiere Pro", "Adobe Premiere Pro 2024", "Adobe Premiere Pro 2025", "Premiere Pro", "Premiere", "premiere.exe", "com.adobe.PremierePro"]
     },
     {
       "slug": "vscode",
       "label": "VS Code",
-      "match": ["Visual Studio Code", "Code", "code.exe", "com.microsoft.VSCode"]
+      "match": ["Visual Studio Code", "Visual Studio Code - Insiders", "Code", "code.exe", "code-insiders", "code-insiders.exe", "VSCodium", "codium", "com.microsoft.VSCode", "com.microsoft.VSCodeInsiders", "com.vscodium"]
     },
     {
       "slug": "zed",
@@ -44,7 +44,7 @@
     {
       "slug": "pycharm",
       "label": "PyCharm",
-      "match": ["PyCharm", "PyCharm Community", "PyCharm Professional", "pycharm", "pycharm.exe", "pycharm64.exe", "com.jetbrains.pycharm"]
+      "match": ["PyCharm", "PyCharm Community", "PyCharm Professional", "PyCharm CE", "pycharm", "pycharm.exe", "pycharm64.exe", "com.jetbrains.pycharm", "com.jetbrains.pycharm.ce"]
     },
     {
       "slug": "intellij-idea",
@@ -64,17 +64,22 @@
     {
       "slug": "word",
       "label": "Word",
-      "match": ["Microsoft Word", "Word", "winword.exe", "com.microsoft.Word"]
+      "match": ["Microsoft Word", "Microsoft Word 365", "Word", "winword.exe", "WINWORD.EXE", "com.microsoft.Word"]
     },
     {
       "slug": "excel",
       "label": "Excel",
-      "match": ["Microsoft Excel", "Excel", "excel.exe"]
+      "match": ["Microsoft Excel", "Microsoft Excel 365", "Excel", "excel.exe", "EXCEL.EXE", "com.microsoft.Excel"]
     },
     {
       "slug": "powerpoint",
       "label": "PowerPoint",
-      "match": ["Microsoft PowerPoint", "PowerPoint", "powerpnt.exe"]
+      "match": ["Microsoft PowerPoint", "Microsoft PowerPoint 365", "PowerPoint", "powerpnt.exe", "POWERPNT.EXE", "com.microsoft.Powerpoint"]
+    },
+    {
+      "slug": "ableton-live",
+      "label": "Ableton Live",
+      "match": ["Ableton Live", "Ableton Live 11", "Ableton Live 12", "Ableton Live 11 Suite", "Ableton Live 12 Suite", "Ableton Live 11 Intro", "Ableton Live 12 Intro", "Ableton Live 11 Lite", "Ableton Live 12 Lite", "Live", "Ableton Live.exe", "Live.exe", "com.ableton.live", "ableton live"]
     }
   ]
 }
