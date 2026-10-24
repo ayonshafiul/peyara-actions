@@ -145,6 +145,11 @@
       "slug": "obs-studio",
       "label": "OBS Studio",
       "match": ["OBS Studio", "OBS", "obs64.exe", "obs.exe", "com.obsproject.obs-studio"]
+    },
+    {
+      "slug": "figma",
+      "label": "Figma",
+      "match": ["Figma", "figma", "Figma.exe", "Figma Beta", "com.figma.Desktop", "com.figma.Desktop.beta"]
     }
   ]
 }
