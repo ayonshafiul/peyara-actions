@@ -150,6 +150,26 @@
       "slug": "figma",
       "label": "Figma",
       "match": ["Figma", "figma", "Figma.exe", "Figma Beta", "com.figma.Desktop", "com.figma.Desktop.beta"]
+    },
+    {
+      "slug": "discord",
+      "label": "Discord",
+      "match": ["Discord", "Discord PTB", "Discord Canary", "discord", "discord-ptb", "discord-canary", "Discord.exe", "DiscordPTB.exe", "DiscordCanary.exe", "com.hammerandchisel.discord"]
+    },
+    {
+      "slug": "spotify",
+      "label": "Spotify",
+      "match": ["Spotify", "spotify", "Spotify.exe", "spotify.exe", "com.spotify.client", "com.spotify.Client"]
+    },
+    {
+      "slug": "slack",
+      "label": "Slack",
+      "match": ["Slack", "slack", "slack.exe", "Slack.exe", "slack-desktop", "com.tinyspeck.slackmacgap", "com.slack.Slack"]
+    },
+    {
+      "slug": "microsoft-teams",
+      "label": "Microsoft Teams",
+      "match": ["Microsoft Teams", "Microsoft Teams 2", "Teams", "teams", "teams.exe", "Teams.exe", "ms-teams.exe", "msteams.exe", "com.microsoft.teams", "com.microsoft.teams2", "com.microsoft.MicrosoftTeams"]
     }
   ]
 }
